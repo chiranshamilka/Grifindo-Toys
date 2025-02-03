@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45F9A9AF-E664-414C-80A4-6F5EEE23F0FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AdminGrifindoLeaveManagement</RootNamespace>
+    <AssemblyName>AdminGrifindoLeaveManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="DecisionLeaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DecisionLeaves.Designer.cs">
+      <DependentUpon>DecisionLeaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefineLeaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineLeaves.Designer.cs">
+      <DependentUpon>DefineLeaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefineRoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineRoster.Designer.cs">
+      <DependentUpon>DefineRoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GrifindoToysDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GrifindoToysDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterEmployee.Designer.cs">
+      <DependentUpon>RegisterEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReport.Designer.cs">
+      <DependentUpon>ViewReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DecisionLeaves.resx">
+      <DependentUpon>DecisionLeaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefineLeaves.resx">
+      <DependentUpon>DefineLeaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefineRoster.resx">
+      <DependentUpon>DefineRoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegisterEmployee.resx">
+      <DependentUpon>RegisterEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReport.resx">
+      <DependentUpon>ViewReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GrifindoToysDataSet.xsc">
+      <DependentUpon>GrifindoToysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet.xss">
+      <DependentUpon>GrifindoToysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet1.xsc">
+      <DependentUpon>GrifindoToysDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet1.xss">
+      <DependentUpon>GrifindoToysDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet2.xsc">
+      <DependentUpon>GrifindoToysDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet2.xss">
+      <DependentUpon>GrifindoToysDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet3.xsc">
+      <DependentUpon>GrifindoToysDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet3.xss">
+      <DependentUpon>GrifindoToysDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet4.xsc">
+      <DependentUpon>GrifindoToysDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet4.xss">
+      <DependentUpon>GrifindoToysDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet5.xsc">
+      <DependentUpon>GrifindoToysDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GrifindoToysDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GrifindoToysDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GrifindoToysDataSet5.xss">
+      <DependentUpon>GrifindoToysDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
