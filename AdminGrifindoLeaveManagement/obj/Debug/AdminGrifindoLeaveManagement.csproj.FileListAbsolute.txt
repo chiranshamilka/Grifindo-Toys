@@ -1,0 +1,16 @@
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\bin\Debug\AdminGrifindoLeaveManagement.exe.config
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\bin\Debug\AdminGrifindoLeaveManagement.exe
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\bin\Debug\AdminGrifindoLeaveManagement.pdb
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.csproj.AssemblyReference.cache
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.AdminLogin.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.DecisionLeaves.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.DefineLeaves.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.DefineRoster.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.MainMenu.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.Properties.Resources.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.RegisterEmployee.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.ViewReport.resources
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.csproj.GenerateResource.cache
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.csproj.CoreCompileInputs.cache
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.exe
+C:\Users\ChiranShamilka\Desktop\AdminGrifindoLeaveManagement\obj\Debug\AdminGrifindoLeaveManagement.pdb
