@@ -1,0 +1,13 @@
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\bin\Debug\GtifindoLeaveManagementEmployee.exe.config
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\bin\Debug\GtifindoLeaveManagementEmployee.exe
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\bin\Debug\GtifindoLeaveManagementEmployee.pdb
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.csproj.AssemblyReference.cache
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.Login.resources
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.Properties.Resources.resources
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.csproj.GenerateResource.cache
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.csproj.CoreCompileInputs.cache
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.exe
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.pdb
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.Main.resources
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.ViewStatus.resources
+C:\Users\ChiranShamilka\Desktop\GtifindoLeaveManagementEmployee\obj\Debug\GtifindoLeaveManagementEmployee.DeleteLeave.resources
